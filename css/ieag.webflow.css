@@ -4991,7 +4991,7 @@ blockquote {
   grid-column-gap: 1.25em;
   justify-content: flex-end;
   align-items: center;
-  margin-left: 143px;
+  margin-left: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
@@ -4999,6 +4999,7 @@ blockquote {
 
 .walsh-main-paragraph {
   color: rgba(0, 0, 0, .6);
+  text-align: center;
   letter-spacing: 0;
   font-family: Montserrat, sans-serif;
   font-size: 1.45em;
@@ -5049,9 +5050,9 @@ blockquote {
   text-align: left;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding-top: 6em;
-  padding-bottom: 6em;
+  align-items: center;
+  padding-top: 4.3em;
+  padding-bottom: 4.3em;
   display: flex;
 }
 
@@ -5074,6 +5075,8 @@ blockquote {
   grid-column-gap: 4em;
   flex-wrap: nowrap;
   justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
 }
 
@@ -5081,7 +5084,7 @@ blockquote {
   z-index: 2;
   width: 100%;
   max-width: 1480px;
-  background-color: #fff;
+  background-color: rgba(0, 101, 151, .03);
   flex: none;
   margin-left: auto;
   margin-right: auto;
@@ -5145,6 +5148,10 @@ blockquote {
 
 .bold-text-19 {
   font-weight: 800;
+}
+
+.div-block-7 {
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
@@ -9801,6 +9808,10 @@ blockquote {
 
   .walsh-main-paragraph {
     font-size: 1em;
+  }
+
+  .walsh-heading-large {
+    font-size: 1.5em;
   }
 
   .walsh-title-tag {
