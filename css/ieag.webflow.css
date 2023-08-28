@@ -5002,7 +5002,7 @@ blockquote {
   text-align: center;
   letter-spacing: 0;
   font-family: Montserrat, sans-serif;
-  font-size: 1.45em;
+  font-size: 1.2em;
   font-weight: 600;
   line-height: 1.3;
 }
@@ -5051,8 +5051,8 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4.3em;
-  padding-bottom: 4.3em;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
 }
 
@@ -7060,6 +7060,7 @@ blockquote {
   }
 
   .brix---btn-primary-white {
+    margin-bottom: 153px;
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -7106,8 +7107,8 @@ blockquote {
   .walsh-content-wrap {
     max-width: none;
     order: -1;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .walsh-image-hero-2 {
@@ -8541,8 +8542,8 @@ blockquote {
   }
 
   .walsh-content-wrap {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .walsh-rounded-container {
@@ -9822,8 +9823,8 @@ blockquote {
     grid-row-gap: 1.25em;
     text-align: center;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
     font-size: 18px;
   }
 
